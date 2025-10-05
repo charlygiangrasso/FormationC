@@ -11,3 +11,11 @@ e = {
     "Pomme": "Fruit qui pousse sur les pommiers"
 } # dictionnaire => { cle: valeur }
 
+f = 5
+g = 10
+h = f + g # addition
+print(h)
+
+dflhsdkjf
+dsfjlhsdkjf
+sldjfhksdjhf
