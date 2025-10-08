@@ -51,25 +51,27 @@ int main(void)
 {
     // ========== Compiler le code ==========
     // Pour compiler le code, il faut faire la commande suivante :
-    // - gcc main.c -o main; ./main.exe
+    // gcc main.c -o main; ./main.exe
 
     /**
      * Exercice 1 : niveau simple
      *
-     * Creer une variable de type entier et 
+     * Creer une variable de type entier et
      * l'afficher dans la console
      */
 
-
+    // int gougougaga = 3;
+    // printf("%d", gougougaga);
 
     /**
      * Exercice 2 : niveau simple
      *
-     * Creer deux variables de type float et les 
+     * Creer deux variables de type float et les
      * afficher dans la console
      */
 
-
+    // float gagagougou = 66.6;
+    // printf("%.1f", gagagougou);
 
     /**
      * Exercice 3 : niveau moyen
@@ -79,7 +81,11 @@ int main(void)
      * - Afficher cette variable dans la console
      */
 
+    // char ogrelas = 't';
+    // char baralas = 'a';
+    // char resultat = ogrelas + baralas;
 
+    // printf("%c", resultat);
 
     /**
      * Exercice 4 : niveau moyen
@@ -89,7 +95,11 @@ int main(void)
      * - Afficher cette le resultat (1 chiffre apres la virgule)
      */
 
+    // float ogrelas = 4.5;
+    // float baralas = 4.5;
+    // float resultat = ogrelas + baralas;
 
+    // printf("%.1f", resultat);
 
     /**
      * Exercice 5 : niveau moyen
@@ -98,7 +108,7 @@ int main(void)
      * - Afficher le resultat dans la console
      */
 
-
+    // printf("%d", resultat > 5);
 
     return 0;
 }
