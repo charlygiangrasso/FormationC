@@ -56,20 +56,16 @@ int main(void)
     /**
      * Exercice 1 : niveau simple
      *
-     * Creer une variable de type entier et 
+     * Creer une variable de type entier et
      * l'afficher dans la console
      */
-
-
 
     /**
      * Exercice 2 : niveau simple
      *
-     * Creer deux variables de type float et les 
+     * Creer deux variables de type float et les
      * afficher dans la console
      */
-
-
 
     /**
      * Exercice 3 : niveau moyen
@@ -79,8 +75,6 @@ int main(void)
      * - Afficher cette variable dans la console
      */
 
-
-
     /**
      * Exercice 4 : niveau moyen
      *
@@ -89,8 +83,7 @@ int main(void)
      * - Afficher cette le resultat (1 chiffre apres la virgule)
      */
 
-
-
+    float resultat = 9.00;
     /**
      * Exercice 5 : niveau moyen
      *
@@ -98,7 +91,8 @@ int main(void)
      * - Afficher le resultat dans la console
      */
 
-
+    int superieur_a_5 = resultat > 5;
+    printf("%d", superieur_a_5);
 
     return 0;
 }
