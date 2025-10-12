@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <unistd.h>
 
 void chapitre_variables(void)
 {
@@ -18,6 +19,7 @@ void chapitre_variables(void)
 
     // boolean
     int boolean = 12 > 18;
+    int is = boolean || boolean;
     bool boolean_bis = 10 < 18; // bool uniquement en important la librairie <stdbool.h>
 
     // %d -> pour afficher un int (entier)
@@ -44,6 +46,10 @@ void chapitre_scanf(void)
     printf("Entrez votre age : ");
     scanf("%d", &age);
     printf("%d\n", age);
+}
+
+void ft_putchar(char c) {
+    write(1, &c, 1);
 }
 
 // Exercices
@@ -92,7 +98,7 @@ int main(void)
      */
 
     int superieur_a_5 = resultat > 5;
-    printf("%d", superieur_a_5);
+    // printf("%d", superieur_a_5);
 
     return 0;
 }
